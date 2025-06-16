@@ -1,0 +1,25 @@
+left shift : a<<b : add 'b' no of zeroes to the right  or  a*(2**b)
+5<<1
+0101 << 1
+01010=> 10
+----------------------
+5<<2
+0101 << 2
+010100 => 20
+
+14<<4
+
+----------------------
+
+right shift : a>>b : add 'b' no of zeroes to left  or  a/(2**b)
+
+5>>1
+0101 >> 1
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+def subset(x,s=[],i=0):
+    if i==len(x):
+        print(s)
+        return
+    subset(x,s+[x[i]],i+1)
+    subset(x,s,i+1)
+
+
+[2,3,4],[2,3],[2,4],[2],[3,4],[
+
+=>[2,3,4],
+
+subset(x,[]+[2],1)
+
+subset(x,[2]+[3],2)
+
+subset(x,[2,3]+[4],3) => subset(x,[2,3,4],3)
+
+subset(x,[2,3],3)
+
+subset(x,[2],2) => subset(x,[2]+[4],3) => subset(x,[2,4],3)
+
+subset(x,[],1) => subset(x,[]+[3],2) => subset(x,[3]+[4],3)

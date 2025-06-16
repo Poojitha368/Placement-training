@@ -1,0 +1,16 @@
+bucket sort:
+nums = [7,10,10,2,6,3,6,7,7,2,2,2]
+d={7:3,2:4,6:2,3:1}
+t=[(7,3),(2,4),(6,2),(3,1),(4,3),(8,2]
+
+by using bucket sort we will place that number at the frequency position,
+take the lists inside lists by max frequency + 1
+
+b = [ [], [3], [6,8], [7,4], [2] ]
+       0   1     2       3    4
+
+now result is
+
+res=[the value in list]*frequency 
+(extent the list)
+

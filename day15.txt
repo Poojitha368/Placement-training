@@ -1,0 +1,17 @@
+Q) a+b*c-e
+
+prefix: a+(*bc)-e = (+a*bc)-(e) = -+a*bce
+postfix: a+(bc*)-e = (abc*+)-(e) = abc*+e-
+
+Q) (a+b*c)/e-i*(j-e)
+prefix: (a+(*bc))/e-i*(-je) = (+a*bc)/e-i*(-je) = (/+a*bce)-i*(-je) = (/+a*bce)-(*i-je)
+        = -/+a*bce*i-je
+postfix: (a+(bc*))/e-i*(je-) = (abc*+)/e-i*(je-) = (abc*+e/)-i*(je-) = (abc*+e/)-(ije-*)
+        = abc*+e/-ije-*
+
+
+Tree Traversals:
+
+Inorder:   l root r
+Preorder : root l r
+Postorder: l r root

@@ -1,0 +1,15 @@
+for top,right,left,bottom views of trees,
+we can use bfs 
+
+and use a concept of 
+1)vertical lines ( |||||||)
+	-3 -2 -1 0 1 2 3
+   (i) whenever i move towords left of curr node , left = left-1
+   (ii) whenever i move towords right of curr node , right= right+1
+
+2)horizontal lines (----------)
+   0
+   1
+   2
+   3
+  (i) for horizontal we take label so no change in left and right
