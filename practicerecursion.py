@@ -9,7 +9,7 @@
 # all_permutations_swap(0,arr)
 
 
-def n_queens(j):
+'''def n_queens(j):
     if j>=n:
         ans.append(["".join(row) for row in board])
         return
@@ -33,4 +33,5 @@ lower_diagonal = [False]*(2*n-1)
 upper_diagonal = [False]*(2*n-1)
 board = [['.' for _ in range(n)] for _ in range(n)]
 n_queens(0)
-print(ans)
+print(ans)'''
+
