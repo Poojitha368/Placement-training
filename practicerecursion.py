@@ -35,7 +35,7 @@ board = [['.' for _ in range(n)] for _ in range(n)]
 n_queens(0)
 print(ans)'''
 
-<<<<<<< HEAD
+
 '''class Solution(object):
     def partition(self, s):
         ds=[]
@@ -59,8 +59,7 @@ print(ans)'''
         partitionHelper(0)
         return ans'''
 
-            
-=======
+        
 '''
 class Solution:
     def solveSudoku(self, board):
@@ -107,4 +106,3 @@ class Solution:
 		
 		#do upvote if it helps.
 '''
->>>>>>> 684480a0dc9d27c151f1d792c9c1adab51ca9670
