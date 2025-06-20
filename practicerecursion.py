@@ -35,3 +35,27 @@ board = [['.' for _ in range(n)] for _ in range(n)]
 n_queens(0)
 print(ans)'''
 
+'''class Solution(object):
+    def partition(self, s):
+        ds=[]
+        ans=[]
+        def partitionHelper(idx):
+            if idx == len(s):
+                ans.append(list(ds))
+                return
+            for i in range(idx,len(s)):
+                if is_palindrome(idx,i):
+                    ds.append(s[idx:i+1])
+                    partitionHelper(i+1)
+                    ds.pop()
+        def is_palindrome(left,right):
+            while left<=right:
+                if s[left]!=s[right]:
+                    return False
+                left+=1
+                right-=1
+            return True
+        partitionHelper(0)
+        return ans'''
+
+            
