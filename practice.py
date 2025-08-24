@@ -12,7 +12,7 @@ arr=[1,2,3]
 subsequence(0)'''
 
 #print all subsequences with sum k
-def subsequence_sum_k(i,s=[],sum=0,k=2):
+'''def subsequence_sum_k(i,s=[],sum=0,k=2):
     if i==len(arr):
         if sum == k:
             print(s)
@@ -25,10 +25,10 @@ def subsequence_sum_k(i,s=[],sum=0,k=2):
     subsequence_sum_k(i+1,s,sum,k)
     
 arr=[1,2,1]
-subsequence_sum_k(0)
+subsequence_sum_k(0)'''
 
 #print only one subsequence with sum k
-def subsequence_sum_k(i=0,s=[],csum=0,k=2):
+'''def subsequence_sum_k(i=0,s=[],csum=0,k=2):
     if i==len(arr):
         if csum == k:
             print(s)
@@ -44,11 +44,11 @@ def subsequence_sum_k(i=0,s=[],csum=0,k=2):
         return True
     
 arr=[1,2,1]
-subsequence_sum_k()
+subsequence_sum_k()'''
 
 
 #count no of subsequences with sum k
-def subsequence_sum_k(i,s=[],sum=0,k=2):
+'''def subsequence_sum_k(i,s=[],sum=0,k=2):
     if i==len(arr):
         if sum == k:
             return 1
@@ -64,11 +64,11 @@ def subsequence_sum_k(i,s=[],sum=0,k=2):
     return l+r
     
 arr=[1,2,1]
-print(subsequence_sum_k(0))
+print(subsequence_sum_k(0))'''
 
 
 # QuickSort implementation
-def partition(arr, low, high):
+'''def partition(arr, low, high):
     pivot = arr[low]
     left = low
     right = high
@@ -92,4 +92,10 @@ def quicksort(arr, low, high):
 
 arr = [4,6,2,5,7,9,1,3]
 quicksort(arr,0,7)
-print(arr)
+print(arr)'''
+
+
+
+
+
+

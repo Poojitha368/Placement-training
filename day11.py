@@ -86,7 +86,7 @@ print(max_sum)'''
 
 #find the length of longest subarray with sum<=k
 # i/p:[2,1,4,6,2,3,1,1,4,2,6,7,3], k=6
-'''def longest_subarray_ksum(arr):
+def longest_subarray_ksum(arr):
     curr_sum = 0
     k=7
     i=0
@@ -102,7 +102,7 @@ print(max_sum)'''
     return max_len
 
 arr=[2,1,4,6,2,3,1,1,4,2,6,7,3]
-print(longest_subarray_ksum(arr))'''
+print(longest_subarray_ksum(arr))
 
 #i/p: "ababba",o/p:4
 #find the length of longest palindromic substring
