@@ -106,7 +106,3 @@ class Solution:
 		
 		#do upvote if it helps.
 '''
-<<<<<<< HEAD
-
-=======
->>>>>>> 861dc12cbb1205633e71f1aec344309021c2b34c
