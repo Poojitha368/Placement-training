@@ -14,6 +14,7 @@ print(can_reach_last_bunk(petrol_bunks))'''
 #item cost 5 rupees and if 10 or 20 given we have to give the 5 or 10 rupee change,
 #if not possinble return False, else true
 '''def coinChange(a):
+
     c5=0
     c10=0
     for i in a:
