@@ -15,6 +15,7 @@ print(can_reach_last_bunk(petrol_bunks))'''
 #if not possinble return False, else true
 '''def coinChange(a):
 
+
     c5=0
     c10=0
     for i in a:
