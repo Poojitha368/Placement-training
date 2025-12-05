@@ -7,6 +7,7 @@ def min_no_exercises(energy,ec):
             return 1
         if curr_sum+(2*i) <= energy:
             curr_sum += 2*i
+            
             cnt += 2
         if curr_sum == energy:
             return cnt
