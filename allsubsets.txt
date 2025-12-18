@@ -21,5 +21,4 @@ subset(x,[2,3],3)
 
 subset(x,[2],2) => subset(x,[2]+[4],3) => subset(x,[2,4],3)
 
-
 subset(x,[],1) => subset(x,[]+[3],2) => subset(x,[3]+[4],3)
