@@ -11,6 +11,7 @@ petrol_bunks = [2,3,1,0,1,3,0]
 print(can_reach_last_bunk(petrol_bunks))'''
 
 
+
 #i/p: [5,5,10,20,5,20,10], o/p: True/False
 #item cost 5 rupees and if 10 or 20 given we have to give the 5 or 10 rupee change,
 #if not possinble return False, else true
