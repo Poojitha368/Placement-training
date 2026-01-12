@@ -194,7 +194,8 @@ print(longest_palindrome_substring(s))'''
     return max_len
 
 s="abcdcecdb"
-print(longest_nonrepeating_substring(s))'''
+print(longest_nonrepeating_substring(s))'
+''
 
 
 
