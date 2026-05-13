@@ -9,7 +9,6 @@ while exp!=1:
 
 print(base*res)
 
-
 base=5
 exp=2
 res=1
