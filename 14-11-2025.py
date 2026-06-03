@@ -20,4 +20,4 @@ while exp!=1:
     base=base*base
     print("base",base)
 
-print(base*res)
+print(base*res) 
