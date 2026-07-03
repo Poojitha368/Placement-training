@@ -85,4 +85,3 @@ print(max_satisfactory(people,bundle))'''
     return True
 nums=[3,2,1,0,4]
 print(canJump(nums))'''
-
