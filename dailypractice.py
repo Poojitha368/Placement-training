@@ -7,3 +7,4 @@ def is_armstrong(num):
 
     # Check if the sum equals the original number
     return sum_of_powers == num
+    
