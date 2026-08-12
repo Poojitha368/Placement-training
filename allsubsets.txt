@@ -1,4 +1,3 @@
-
 def subset(x,s=[],i=0):
     if i==len(x):
         print(s)
