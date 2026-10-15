@@ -16,6 +16,7 @@ for s,e in jobs:
         meetings+=1
 print(meetings)'''
 
+
 # i/p:"hippopotamus",o/p:"simtopopapuh"
 '''def reverse_string_without_changind_vowels(s):
     idx = []
