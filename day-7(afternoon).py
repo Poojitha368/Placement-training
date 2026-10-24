@@ -15,6 +15,7 @@ for key in d:
         break
 '''
 
+
 #moores algorithm
 '''
 a=[2,1,3,1,1,1,3]
