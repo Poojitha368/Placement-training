@@ -2,6 +2,7 @@ class node:
     def __init__(self,d):
         self.data = d
         self.next=None
+        
 class linked:
     def __init__(self):
         self.head=None
