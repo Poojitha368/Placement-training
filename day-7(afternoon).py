@@ -14,7 +14,6 @@ for key in d:
         print(key)
         break
 '''
-
 #moores algorithm
 '''
 a=[2,1,3,1,1,1,3]
